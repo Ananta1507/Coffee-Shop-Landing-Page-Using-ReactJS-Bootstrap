@@ -1,0 +1,41 @@
+/* src/css/About.css */
+.about-container {
+  background-color: rgba(0, 0, 0, 0.4); /* Latar belakang hitam transparan */
+  color: white; /* Warna teks putih */
+  min-height: 100vh;
+}
+
+.jumbotron {
+  background-color: rgba(0, 0, 0, 0.4); /* Latar belakang hitam transparan */
+  color: white; /* Warna teks putih */
+}
+
+.card {
+  background-color: rgba(0, 0, 0, 0.3); /* Latar belakang hitam transparan */
+  color: white; /* Warna teks putih */
+  border: 1px solid white; /* Border putih */
+}
+
+.list-group-item {
+  background-color: rgba(0, 0, 0, 0.3); /* Latar belakang hitam transparan */
+  color: white; /* Warna teks putih */
+  border: 1px solid white; /* Border putih */
+}
+/* src/css/About.css */
+
+.card-title {
+  text-align: center; /* Center text horizontally */
+}
+/* src/css/About.css */
+
+/* Custom button style */
+.btn-red {
+  background-color: red; /* Set background color to red */
+  color: white; /* Set text color to white */
+  border: none; /* Remove border */
+}
+
+.list-group-item {
+  text-align: center; /* Center text in list items */
+}
+

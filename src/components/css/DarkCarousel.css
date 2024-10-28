@@ -1,0 +1,35 @@
+/* src/css/DarkCarousel.css */
+
+/* Gaya untuk carousel */
+.custom-carousel {
+    position: relative; /* Pastikan posisi relatif untuk caption */
+  }
+  
+  /* Gaya untuk caption */
+  .carousel-caption {
+    font-size: 0.8rem; /* Ukuran font untuk caption */
+    text-align: center; /* Atur teks menjadi rata tengah */
+    padding: 20px; /* Tambahkan padding untuk memberi ruang di sekitar caption */
+    background-color: rgba(0, 0, 0, 0.5); /* Tambahkan latar belakang semi-transparan untuk caption */
+    border-radius: 10px; /* Buat sudut caption menjadi melengkung */
+    bottom: 20px; /* Atur posisi caption dari bawah */
+  }
+  
+  .carousel-caption h5 {
+    font-size: 1.2rem; /* Ukuran font untuk judul */
+    font-weight: bold; /* Tebalkan judul */
+  }
+  
+  .carousel-caption p {
+    font-size: 0.7rem; /* Ukuran font untuk deskripsi */
+  }
+  
+  /* Gaya untuk gambar */
+  .carousel-image {
+    object-fit: cover; /* Pastikan gambar menutupi area tanpa merusak proporsi */
+    height: 400px; /* Atur tinggi gambar sesuai kebutuhan */
+  }
+  
+  .text-content{
+    justify-content: center;
+  }

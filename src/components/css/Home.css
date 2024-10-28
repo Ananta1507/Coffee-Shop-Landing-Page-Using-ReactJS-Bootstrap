@@ -1,0 +1,27 @@
+/* src/css/Home.css */
+
+.home-container {
+  color: white; /* Warna teks putih untuk kontras dengan latar belakang */
+  padding: 20px; /* Ruang di sekitar konten */
+  min-height: 100vh; /* Memastikan konten mengisi seluruh tinggi layar */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center; /* Rata tengah teks */
+}
+
+.content {
+  background: rgba(0, 0, 0, 0.4); /* Latar belakang gelap transparan untuk meningkatkan keterbacaan */
+  padding: 20px;
+  border-radius: 10px; /* Sudut membulat */
+  max-width: 1000px; /* Maksimal lebar konten */
+  margin: 10px; /* Margin di sekitar konten */
+}
+
+/* Mengatur warna teks dan meratakan teks */
+.text-content {
+  color: white; /* Warna teks putih */
+  text-align: justify; /* Mengatur teks menjadi justify */
+  margin: 10px 0; /* Margin atas dan bawah untuk jarak antar elemen */
+}

@@ -1,0 +1,56 @@
+/* src/css/Contact.css */
+
+/* Gaya untuk kontainer utama */
+.contact-container {
+  display: flex; /* Gunakan flexbox untuk konten */
+  justify-content: center; /* Pusatkan konten secara horizontal */
+  align-items: center; /* Pusatkan konten secara vertikal */
+  height: 100vh; /* Tinggi penuh viewport */
+  background-size: cover; /* Ukuran latar belakang */
+  background-position: center; /* Posisi latar belakang */
+}
+
+/* Gaya untuk konten di dalam kontainer */
+.contact-content {
+  text-align: center; /* Pusatkan teks */
+  color: white; /* Warna teks */
+  background-color: rgba(0, 0, 0, 0.7); /* Latar belakang hitam transparan */
+  padding: 20px; /* Padding untuk konten */
+  border-radius: 10px; /* Sudut membulat */
+}
+
+/* Gaya untuk tombol */
+.transparent-button {
+  background-color: rgba(0, 0, 0, 0.5); /* Latar belakang hitam transparan untuk tombol */
+  color: white; /* Warna teks tombol */
+  border: none; /* Tanpa border */
+  padding: 10px 20px; /* Padding untuk tombol */
+  font-size: 1em; /* Ukuran font */
+  border-radius: 5px; /* Sudut membulat */
+  transition: background-color 0.3s; /* Transisi untuk hover */
+}
+
+.transparent-button:hover {
+  background-color: rgba(0, 0, 0, 0.7); /* Lebih gelap saat hover */
+}
+
+/* Gaya untuk teks */
+.text-content {
+  background-color: rgba(0, 0, 0, 0.0); /* Latar belakang hitam transparan untuk teks */
+  padding: 10px; /* Padding untuk teks */
+  border-radius: 5px; /* Sudut membulat */
+}
+
+/* Gaya untuk kontainer tombol sosial media */
+.social-buttons {
+  display: flex; /* Gunakan flexbox untuk tombol sosial media */
+  justify-content: center; /* Pusatkan tombol secara horizontal */
+  margin-top: 20px; /* Tambahkan margin atas */
+}
+
+/* Gaya untuk setiap tombol sosial media */
+.social-button {
+  color: white; /* Warna ikon */
+  margin: 0 10px; /* Tambahkan margin di antara tombol */
+  transition: transform 0.2s;
+}

@@ -1,0 +1,12 @@
+
+.product-container {
+    background-size: cover; /* Gambar akan menutupi seluruh area */
+    background-position: center; /* Memusatkan gambar */
+    height: 100vh; /* Mengatur tinggi elemen menjadi 100% dari viewport */
+    display: flex; /* Menggunakan flexbox */
+    flex-direction: column; /* Mengatur arah konten menjadi kolom */
+    justify-content: center; /* Memusatkan konten secara vertikal */
+    align-items: center; /* Memusatkan konten secara horizontal */
+    padding: 20px; /* Menambahkan padding jika diperlukan */
+    overflow: auto; /* Menambahkan overflow agar konten tidak terpotong */
+  }
